@@ -13,7 +13,7 @@
 #Requires -Modules @{ModuleName='AWS.Tools.CodeBuild';ModuleVersion='4.1.29.0'}
 
 # Uncomment to send the input event to CloudWatch Logs
- Write-Host (ConvertTo-Json -InputObject $LambdaInput -Compress -Depth 5)
+# Write-Host (ConvertTo-Json -InputObject $LambdaInput -Compress -Depth 5)
 
 # A CodeCommit Trigger can receive multiple records per execution
 try{
